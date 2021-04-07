@@ -4,7 +4,7 @@ var sign =prompt("input a sign +, -, *, /, %");
 
 switch(sign)
 {
-    // if (sign == "+")
+    // if (sign === "+")
     case "+":
         var result = parseFloat(num1) + parseFloat(num2);
         console.log(`${num1} + ${num2} = ${result}`);
